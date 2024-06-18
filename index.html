@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  </head>
+  <body class="scroll">
+    <header class="encabezado">
+      <nav class="navegacion">
+        <a class="navegacion__enlace" href="#presentacion">
+          <h2 class="navegacion__titulo">INFORMATORIO 2024</h2>
+        </a>
+        <ul class="enlaces">
+          <li class="enlaces__item">
+            <a class="enlaces__enlace" href="#presentacion">Inicio</a>
+          </li>
+          <li class="enlaces__item">
+            <a class="enlaces__enlace" href="#sobre-mi">Sobre mi</a>
+          </li>
+          <li class="enlaces__item">
+            <a class="enlaces__enlace" href="#proyectos">Proyectos</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="principal">
+      <section class="presentacion" id="presentacion">
+        <div class="presentacion__contenedor_info">
+          <h1 class="presentacion__titulo">Mauricio Fabián Burgos</h1>
+          <p class="presentacion__parrafo">
+            Estudiando en el Informatorio para poder
+            ser Desarrollador Web.
+          </p>
+          <div class="presentacion__contenedor_botones">
+            <a href="#sobre-mi" class="boton" role="button">Sobre mí</a>
+            <a
+              href="./assets/docs/CV M_F_Burgos.pdf"
+              target="_blank"
+              class="boton boton_oscuro"
+              role="button"
+              >Descargar CV</a
+            >
+          </div>
+        </div>
+      </section>
+      <article class="articulo sobre_mi" id="sobre-mi">
+        <h2 class="articulo__titulo">Un poco sobre mi</h2>
+        <div class="articulo__contenedor_descripciones">
+          <section class="seccion_descripcion">
+            <div class="seccion_descripcion__porta_retrato">
+              <img
+                class="seccion_descripcion__imagen"
+                src="./assets/imagenes/programando.png"
+                alt="foto trabajando en la oficina"
+                title="programando"
+              />
+            </div>
+            <div
+              class="seccion_descripcion__info scroll scroll_fino scroll_gris"
+              aria-label="descripcion personal"
+            >
+              <h3 class="seccion_descripcion__titulo" id="mi_historia_titulo">
+                Mi historia
+              </h3>
+              <p
+                class="seccion_descripcion__parrafo"
+                aria-label="Detalles de mi historia"
+                aria-describedby="mi_historia_titulo"
+              >
+              Hola mundo! 👋
+              Me presento:
+              Soy Maurcio Fabián Burgos de Resistencia Chaco, Argentina 🌎,                        
+              les cuento sobre mí:              
+              Estoy aprendiendo a programar  💻, me gusta ver películas,
+              trabajo en salud pública, actualmente estudio desarrollo web
+              y programación en el Informatorio.
+              Me encanta el mate y el café ☕.
+              Escucho música nacional, Soda Stereo en especial.
+              </p>
+              <p
+                class="seccion_descripcion__parrafo"
+                aria-label="Detalles de mi historia"
+                aria-describedby="mi_historia_titulo"
+              >
+               Me gusta nadar, viajar, ir al río, compartir reuniones 
+              familiares y con amigos, en el año 2023 aprobé hasta la segunda 
+              etapa del Informatorio.
+              </p>
+              <p
+                class="seccion_descripcion__parrafo"
+                aria-label="Detalles de mi historia"
+                aria-describedby="mi_historia_titulo"
+              >Para un futuro no muy lejano me gustaría trabajar como desarrollador web, 
+              actualmente estudio y me preparo para poder dar el 100% de mis capacidades &#128640
+              y asi desarrollar nuevas técnicas y capacidades para mi desarrollo personal.
+              </p>
+              <p
+                class="seccion_descripcion__parrafo"
+                aria-label="Detalles de mi historia"
+                aria-describedby="mi_historia_titulo"
+              >
+                 
+              </p>
+            </div>
+          </section>
+          <section class="seccion_descripcion">
+            <div
+              class="seccion_descripcion__info scroll scroll_fino scroll_gris"
+              aria-label="descripcion personal"
+            >
+              <h3 class="seccion_descripcion__titulo" id="mis_hobbies_titulo">
+                Mis hobbies
+              </h3>
+              <p
+                class="seccion_descripcion__parrafo"
+                aria-label="Detalles de mis hobbies"
+                aria-describedby="mis_hobbies_titulo"
+              >
+                Mis hobbies:
+                son escuchar música &#127925, disfrutar de actividades en la naturaleza,
+                ir de pesca, disfurtar de la compañia de amigos y familiares,
+                y nadar, actualmente me gusta dedicarme a la informática,
+                en realidad la informática es algo que siempre me apasionó, ahora 
+                ya dispongo de tiempo, fuera de mi carrera profesional, para aprender 
+                y disfrutar de este inmenso mundo.
+              </p>
+              <p
+                class="seccion_descripcion__parrafo"
+                aria-label="Detalles de mis hobbies"
+                aria-describedby="mis_hobbies_titulo"
+              >
+                 
+              </p>
+              <p
+                class="seccion_descripcion__parrafo"
+                aria-label="Detalles de mis hobbies"
+                aria-describedby="mis_hobbies_titulo"
+              >
+                
+              </p>
+            </div>
+            <div class="seccion_descripcion__porta_retrato">
+              <img
+                class="seccion_descripcion__imagen seccion_descripcion__imagen_variante"
+                src="./assets/imagenes/turismo.jpeg"
+                alt="foto atardecer en el parana"
+                title="mis hobbies"
+              />
+            </div>
+          </section>
+        </div>
+      </article>
+      <article class="articulo proyectos" id="proyectos">
+        <h2 class="articulo__titulo">Mis proyectos</h2>
+        <div class="contenedor_tarjetas_grid">
+      <article
+            class="tarjeta"
+            aria-label="presentacion de proyecto personal"
+      >
+            <img
+              class="tarjeta__imagen"
+              src="./assets/imagenes/spectrum.png"
+              alt="imagen del proyecto"
+              title="proyecto 1"
+            />
+            <div class="tarjeta__contenido">
+              <h3 class="tarjeta__titulo" id="titulo_proyecto_1">Programación</h3>
+              <span class="tarjeta__divisor"></span>
+              <p
+                class="tarjeta__parrafo scroll scroll_fino"
+                aria-label="descripcion de proyecto personal"
+                aria-describedby="titulo_proyecto_1"
+              >
+                La programación es un mundo en el cual deseo insertarme
+                desde los 12 años de edad estudié el lenguaje Basic, lo aplicaba
+                en una Siclair Spectrum, en esa época era lo mas avanzado en 
+                cuanto a ordenadores personales, luego en el país llegaron 
+                las Comodore 64, 
+              </p>
+              <a href="#" class="boton boton_oscuro" target="_blank"
+                >Ver proyecto</a
+              >
+            </div>
+          </article>
+          <article
+            class="tarjeta"
+            aria-label="presentacion de proyecto personal"
+          >
+            <img
+              class="tarjeta__imagen"
+              src="./assets/imagenes/proyectos/NUEVAS TECNOLOGIAS.png"
+              alt="imagen del proyecto"
+              title="proyecto 2"
+            />
+            <div class="tarjeta__contenido">
+              <h3 class="tarjeta__titulo" id="titulo_proyecto_2">DESARROLLO WEB</h3>
+              <span class="tarjeta__divisor"></span>
+              <p
+                class="tarjeta__parrafo scroll scroll_fino scroll_gris"
+                aria-label="descripcion de proyecto personal"
+                aria-describedby="titulo_proyecto_2"
+              >
+                Actualmente estudiando en el Informatorio para poder obtener
+                herramientas que potencien las capacidades adquiridas en otros
+                cursos realizados como ser Python, Django; CSS, html
+              </p>
+              <a href="#" class="boton" target="_blank">Ver proyecto</a>
+            </div>
+          </article>
+          <article
+            class="tarjeta"
+            aria-label="presentacion de proyecto personal"
+          >
+            <img
+              class="tarjeta__imagen"
+              src="./assets/imagenes/proyectos/html.png"
+              alt="imagen del proyecto"
+              title="proyecto 3"
+            />
+            <div class="tarjeta__contenido">
+              <h3 class="tarjeta__titulo" id="titulo_proyecto_3">Cursado html</h3>
+              <span class="tarjeta__divisor"></span>
+              <p
+                class="tarjeta__parrafo scroll scroll_fino"
+                aria-label="descripcion de proyecto personal"
+                aria-describedby="titulo_proyecto_3"
+              >
+                html poderoso lenguaje que aprendimos a utilizar para 
+                crear páginas web en internet, el cual aprendí a utilizarlo 
+                en la primera etapa de este Informatorio
+              </p>
+              <a href="#" class="boton boton_oscuro" target="_blank"
+                >Ver proyecto</a
+              >
+            </div>
+          </article>
+          <article
+            class="tarjeta"
+            aria-label="presentacion de proyecto personal"
+          >
+            <img
+              class="tarjeta__imagen"
+              src="./assets/imagenes/proyectos/CSS-Logo.png"
+              alt="imagen del proyecto"
+              title="proyecto 4"
+            />
+            <div class="tarjeta__contenido">
+              <h3 class="tarjeta__titulo" id="titulo_proyecto_4">Cursado CSS</h3>
+              <span class="tarjeta__divisor"></span>
+              <p
+                class="tarjeta__parrafo scroll scroll_fino scroll_gris"
+                aria-label="descripcion de proyecto personal"
+                aria-describedby="titulo_proyecto_4"
+              >
+                CSS es un lenguaje de hojas de estilos creado para controlar 
+                el aspecto o presentacion de los documentos HTML, imprescindible para 
+                crear páginas web. Este lenguaje lo aprendi en el Informatorio junto a 
+                HTML. 
+              </p>
+              <a href="#" class="boton" target="_blank">Ver proyecto</a>
+            </div>
+          </article>
+          <article
+            class="tarjeta"
+            aria-label="presentacion de proyecto personal"
+          >
+            <img
+              class="tarjeta__imagen"
+              src="./assets/imagenes/turismo4.png"
+              alt="imagen del proyecto"
+              title="proyecto 5"
+          />
+            <div class="tarjeta__contenido">
+              <h3 class="tarjeta__titulo" id="titulo_proyecto_5">Blog de Turismo</h3>
+              <span class="tarjeta__divisor"></span>
+              <p
+                class="tarjeta__parrafo scroll scroll_fino"
+                aria-label="descripcion de proyecto personal"
+                aria-describedby="titulo_proyecto_5"
+              >
+                En el Informatorio del año 2023,
+                realizamos juanto a un equipo de 
+                alumnos un Blog de Turismo usando
+                Django-Python-sql:
+                            </p>
+              <a href="https://github.com/cecimaidana/ProyectoFinal" 
+              class="boton boton_oscuro" target="_blank">Ver proyecto</a>
+            </div>
+          </article>
+          <article
+            class="tarjeta"
+            aria-label="presentacion de proyecto personal"
+          >
+            <img
+              class="tarjeta__imagen"
+              src="./assets/imagenes/proyectos/reproductor.jpg"
+              alt="imagen del proyecto"
+              title="proyecto 6"
+            />
+            <div class="tarjeta__contenido">
+              <h3 class="tarjeta__titulo" id="titulo_proyecto_6">Proyecto Final</h3>
+              <span class="tarjeta__divisor"></span>
+              <p
+                class="tarjeta__parrafo scroll scroll_fino scroll_gris"
+                aria-label="descripcion de proyecto personal"
+                aria-describedby="titulo_proyecto_6"
+              >
+                Mi proyecto final en el cual estaré capacitándome será
+                llegar a estudiar programación en la UTN  para así poder
+                desarrollarme como programador y diseñador web.
+              </p>
+              <a href="#" class="boton" target="_blank">Ver proyecto</a>
+            </div>
+          </article>
+        </div>
+      </article>
+    </main>
+    <footer class="pie_de_pagina" role="contentinfo">
+      <div class="pie_de_pagina__columna">
+        <h4 class="pie_de_pagina__titulo_columna">Mis redes</h4>
+        <ul class="enlaces enlaces_redes">
+          <li class="enlaces__item">
+            <a
+              class="enlaces__enlace enlaces__enlace_footer"
+              href="https://github.com/mauricio5225"
+              target="_blank"
+              ><img
+                class="enlaces__icono"
+                src="./assets/imagenes/logos/github-logo.png"
+                alt="logo de github"
+                title="github"
+            /></a>
+          </li>
+          <li class="enlaces__item">
+            <a
+              class="enlaces__enlace enlaces__enlace_footer"
+              href="https://www.instagram.com/mauro.burgos1/"
+              target="_blank"
+            >
+              <img
+                class="enlaces__icono"
+                src="./assets/imagenes/logos/ig-logo.png"
+                alt="logo de instagram"
+                title="instagram"
+              />
+            </a>
+          </li>
+          <li class="enlaces__item">
+            <a
+              class="enlaces__enlace enlaces__enlace_footer"
+              href="https://x.com/MauricioFBurgos"
+              target="_blank"
+              ><img
+                class="enlaces__icono"
+                src="./assets/imagenes/logos/x-logo.png"
+                alt="logo de X"
+                title="X"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="pie_de_pagina__columna">
+        <h4 class="pie_de_pagina__titulo_columna">Contactame</h4>
+        <ul class="enlaces enlaces_vertical">
+          <li class="enlaces__item">
+            <a
+              class="enlaces__enlace enlaces__enlace_footer"
+              href="mailto: mfburgos5225@mail.com"
+              target="_blank"
+              >Mail: mfburgos5225@mail.com</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="pie_de_pagina__columna" role="navigation">
+        <h4 class="pie_de_pagina__titulo_columna">Secciones</h4>
+        <ul class="enlaces enlaces_vertical">
+          <li class="enlaces__item">
+            <a
+              class="enlaces__enlace enlaces__enlace_footer"
+              href="#presentacion"
+              >Inicio</a
+            >
+          </li>
+          <li class="enlaces__item">
+            <a class="enlaces__enlace enlaces__enlace_footer" href="#sobre-mi"
+              >Sobre mi</a
+            >
+          </li>
+          <li class="enlaces__item">
+            <a class="enlaces__enlace enlaces__enlace_footer" href="#proyectos"
+              >Proyectos</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="pie_de_pagina__copyright">
+        <p>©️Copyright 2024</p>
+      </div>
+    </footer>
+  </body>
+</html>
